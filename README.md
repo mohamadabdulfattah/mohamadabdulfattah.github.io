@@ -10,19 +10,18 @@ A responsive portfolio website with the following features:
 ## Project Structure
 ```
 portfolio-website/
-├── frontend/
-│   ├── index.html
-│   ├── projects.html
-│   ├── about.html
-│   ├── contact.html
-│   ├── admin-login.html
-│   ├── admin-dashboard.html
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── main.js
-│   └── assets/
-│       └── images/
+├── index.html
+├── projects.html
+├── about.html
+├── contact.html
+├── admin-login.html
+├── admin-dashboard.html
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+└── assets/
+      └── images/
 ├── backend/
 │   ├── server.js
 │   ├── package.json
