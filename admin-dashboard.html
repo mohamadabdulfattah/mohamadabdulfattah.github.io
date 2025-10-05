@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" id="logoutBtn">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Dashboard Overview</h2>
+            <div id="dashboardStats">
+                <div class="stat-card">
+                    <h3>Total Projects</h3>
+                    <p id="totalProjects">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Messages</h3>
+                    <p id="totalMessages">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Unread Messages</h3>
+                    <p id="unreadMessages">0</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Project Management</h2>
+            <button id="addProjectBtn">Add New Project</button>
+            <div id="projectsList">
+                <!-- Projects will be loaded here -->
+            </div>
+        </section>
+
+        <section>
+            <h2>Contact Messages</h2>
+            <div id="messagesList">
+                <!-- Messages will be loaded here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Connect with me on <a href="https://linkedin.com">LinkedIn</a>, <a href="https://github.com">GitHub</a>, and <a href="https://twitter.com">Twitter</a>.</p>
+    </footer>
+    <script src="js/admin.js"></script>
+</body>
+</html>
