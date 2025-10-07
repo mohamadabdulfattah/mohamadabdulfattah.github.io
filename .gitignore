@@ -1,1 +1,11 @@
+    # Ignore all .log files
+    *.log
 
+    # Ignore the 'build' directory
+    build/
+
+    # Ignore a specific file
+    config.local.js
+
+    # Ignore the 'node_modules' directory
+    node_modules/
