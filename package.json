@@ -1,5 +1,12 @@
 {
+  "name": "@mohamadabdulfattah/mohamadabdulfattah.github.io",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamadabdulfattah/mohamadabdulfattah/mohamadabdulfattah.github.io.git"
+  },
   "dependencies": {
     "cors": "^2.8.5"
   }
 }
+
