@@ -9,7 +9,7 @@ A responsive portfolio website with the following features:
 
 ## Project Structure
 ```
-portfolio-website/
+ai project/
 ├── index.html
 ├── projects.html
 ├── about.html
